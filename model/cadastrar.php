@@ -5,13 +5,13 @@ interface Cadastrar {
     public function create($cliente){
 
     }
-    public function list($cliente){
+    public function read($cliente){
 
     }
     public function delete($cliente){
 
     }
-    public function alter($cliente){
+    public function update($cliente){
 
     }
 

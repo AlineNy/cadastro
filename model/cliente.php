@@ -3,42 +3,45 @@
 
 class Cliente extends Cadastro{
 
-    public string $nome;
-	public string $sexo;
-	public string $id;
-	$dtNascimento = new DateTime();
+    private $nome;
+	private $sexo;
+	private $id;
+	private $dtNascimento;
 
-	public string get$Id() {
-		return this.$id;
+	public function getNome() {
+		return $this->nome;
 	}
 
-	public void set$Id(string $id) {
-		this.$id = $id;
+	public function  setNome($nome) {
+		$this->nome = $nome;
 	}
 
-	public string get$Nome() {
-		return this.$nome;
+	public function  getSexo() {
+		return $this->sexo;
 	}
 
-	public void set$Nome(string $nome) {
-		this.$nome = $nome;
+	public function  setSexo($sexo) {
+		$this->sexo = $sexo;
 	}
 
-	public string get$Sexo() {
-		return this.$sexo;
+	public function  getId() {
+		return $this->id;
 	}
 
-	public void set$Sexo(string $sexo) {
-		this.$sexo = $sexo;
+	public function  setId($id) {
+		$this->id = $id;
 	}
 
-	public = getNew() {
-		return this.new;
+	public function  getDtNascimento() {
+		return $this->dtNascimento;
 	}
 
-	public void setNew(= new) {
-		this.new = new;
+	public function setDtNascimento($dtNascimento) {
+		$this->dtNascimento = $dtNascimento;
 	}
+
+
+
 
 
 
